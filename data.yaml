@@ -1,0 +1,11 @@
+path: ../dataset # dataset root dir
+train: images/train
+val: images/val
+test: images/test
+
+# Classes, in alphabetical order but with ‘other’ as the last class
+names:
+    0: left_only
+    1: right_only
+    2: through
+    3: other
