@@ -1,7 +1,9 @@
-path: ../dataset # dataset root dir
-train: images/train
-val: images/val
-test: images/test
+path: C:\Users\ngn\Downloads\marking_detection_model\dataset # dataset root dir
+train: train/images
+val: val/images
+test: test/images
+
+nc: 4
 
 # Classes, in alphabetical order but with ‘other’ as the last class
 names:
